@@ -1,7 +1,7 @@
 /**
  * Mini Dock
  *
- * The mini dock lives at the bototm of the page and can tontain N number of
+ * The mini dock lives at the bototm of the page and can contain N number of
  * icons.
  *
  * At a high level the dock looks as follows:
@@ -13,7 +13,7 @@
  *  +--------+ +--------+ +--------+
  *
  * All this dock supports is making the icons slightly larger on mouseover
- * and the addition of icons via the following interface.
+ * and the addition of icons.
  *
  * Usage:
  *
@@ -49,7 +49,7 @@ var NameSpace = {} || NameSpace;
    */
   var MiniDock = function(){
     var self = this;
-    // We can call to our init method wich will take
+    // We can call to our init method which will take
     // care of actually creating the base elements for
     // our dock
     self.__init();
