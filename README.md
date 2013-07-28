@@ -6,3 +6,7 @@ The goal was to create a very simple dock of icons built using vanilla Javascrip
 
 ### Supported Browsers
     Chrome
+    
+    
+### Demo
+   http://jasoncbautista.github.io/miniDock/
