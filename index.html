@@ -5,24 +5,36 @@
     <script type="text/javascript">
      // A simple test of the Dock widget:
       window.onload = function(){
+        // Just a simple iframe to display some sample websites:
+        var iframe = document.createElement("iframe");
+        document.body.appendChild(iframe);
+        iframe.style.display = "none";
+        iframe.width = "100%";
+        iframe.height = "100%";
         var dock = new NameSpace.MiniDock();
-        // We add a few icons:
+        // We add a few icons which change the iframe:
         dock.addIcon({
           "iconURI": "images/chrome.png",
           onClickCallback: function(){
             console.log("chrome!");
+            iframe.style.display = "";
+            iframe.src = "http://www.google.com/intl/en/chrome/browser/";
           }
         });
         dock.addIcon({
           "iconURI": "images/firefox.png",
           onClickCallback: function(){
+            iframe.style.display = "";
+            iframe.src = "https://en.wikipedia.org/wiki/Firefox";
             console.log("firefox");
           }
         });
         dock.addIcon({
           "iconURI": "images/ubuntu.png",
           onClickCallback: function(){
-            console.log("chrome!");
+            iframe.style.display = "";
+            iframe.src = "http://www.ubuntu.com/";
+            console.log("ubuntu!");
           }
         });
         document.body.appendChild(dock.render());
@@ -32,6 +44,6 @@
     </script>
   </head>
   <body>
-    A Sample Demo of the Dock:
+
   </body>
 </html>
