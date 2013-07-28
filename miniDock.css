@@ -1,0 +1,22 @@
+.__miniDock_icon img{
+  width: 64px;
+}
+
+.__miniDock_icon img:hover{
+ width: 128px;
+
+}
+.__miniDock_holdingContainer{
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+}
+
+.__miniDock_container{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}

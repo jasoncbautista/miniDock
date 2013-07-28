@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <link href="miniDock.css" type="text/css" rel="stylesheet" >
+    <script src="miniDock.js" type="text/javascript"></script>
+    <script type="text/javascript">
+     // A simple test of the Dock widget:
+      window.onload = function(){
+        var dock = new NameSpace.MiniDock();
+        // We add a few icons:
+        dock.addIcon({
+          "iconURI": "images/chrome.png",
+          onClickCallback: function(){
+            console.log("chrome!");
+          }
+        });
+        dock.addIcon({
+          "iconURI": "images/firefox.png",
+          onClickCallback: function(){
+            console.log("firefox");
+          }
+        });
+        dock.addIcon({
+          "iconURI": "images/ubuntu.png",
+          onClickCallback: function(){
+            console.log("chrome!");
+          }
+        });
+        document.body.appendChild(dock.render());
+
+      };
+
+    </script>
+  </head>
+  <body>
+    A Sample Demo of the Dock:
+  </body>
+</html>
