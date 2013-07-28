@@ -99,7 +99,6 @@ var NameSpace = {} || NameSpace;
     var iconElement = self.__templates.iconHolder.cloneNode(true);
     iconElement.innerHTML = "<img src='"+ options.iconURI +"'/>";
     iconElement.onclick = function(){
-      alert('click');
       options.onClickCallback();
     };
     return iconElement;
