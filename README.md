@@ -19,7 +19,7 @@ The goal was to create a very simple dock of icons built using vanilla Javascrip
 
     var minidDockElement = miniDockInstance.render();
     document.body.appendChild(miniDockElement);
-    ```
+  ```
 
 
 ### Supported Browsers
