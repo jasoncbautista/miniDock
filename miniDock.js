@@ -93,6 +93,11 @@ var NameSpace = {} || NameSpace;
     return self.__templates.holdingContainer;
   };
 
+  /**
+   * Renders a single icon. The bindings for the icon are onclick.
+   * @param  {options} options, info like imageURL and click callback.
+   * @return {Object}  DOm representation of the icon.
+   */
   MiniDock.prototype.__renderIcon =  function(options){
     var self = this;
     // We create the icon element by creating a deep clone of the template:
