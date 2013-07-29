@@ -32,7 +32,7 @@ At a high level the dock looks as follows:
 
 ### Notes
 
- - It lives at the bottom of the DOM elemnt it is attached to.
+ - It lives at the bottom of the DOM element it is attached to.
  - It is centered horizontally.
 
 ### Supported Browsers
