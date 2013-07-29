@@ -7,9 +7,7 @@ The goal was to create a very simple dock of icons built using vanilla Javascrip
 
 ### Example:
 
-    // Creating the dock:
     var miniDockInstance = new NameSpace.MiniDock();
-    // Add an icon:
     var options = {
       iconURI: "image/path/someImage.png",
       onClickCallback: function(){
@@ -17,7 +15,7 @@ The goal was to create a very simple dock of icons built using vanilla Javascrip
       }
     };
     miniDockInstance.addIcon(options);
-    // Add the dock to the document body:
+
     var minidDockElement = miniDockInstance.render();
     document.body.appendChild(miniDockElement);
 
