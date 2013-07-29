@@ -2,7 +2,7 @@ A Simple Mini Dock
 ===
 
 ### Overview
-The goal was to create a very simple dock of icons built using vanilla Javascript
+The goal was to create a very simple dock of icons built using vanilla Javascript.
 
 At a high level the dock looks as follows:
   ```html
@@ -37,4 +37,4 @@ At a high level the dock looks as follows:
 
 
 ### Demo
-   [Try The Demo Here](http://jasoncbautista.github.io/miniDock/)
+   Try the demo [here](http://jasoncbautista.github.io/miniDock/).
