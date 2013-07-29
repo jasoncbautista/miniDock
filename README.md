@@ -4,8 +4,18 @@ A Simple Mini Dock
 ### Overview
 The goal was to create a very simple dock of icons built using vanilla Javascript
 
+At a high level the dock looks as follows:
+  ```javascript
+     /*
+     *  +--------+ +--------+ +--------+
+     *  |        | |        | |        |
+     *  |  icon  | | icon 2 | | icon 3 |
+     *  |        | |        | |        |
+     *  +--------+ +--------+ +--------+
+     */
+   ```
 
-### Example:
+### Sample Usage:
 
   ```javascript
     var miniDockInstance = new NameSpace.MiniDock();
