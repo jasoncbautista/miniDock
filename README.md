@@ -34,6 +34,7 @@ At a high level the dock looks as follows:
 
  - It lives at the bottom of the DOM element it is attached to.
  - It is centered horizontally.
+ - Hovering over icon will cause it to grow.
 
 ### Supported Browsers
     * Chrome 28
