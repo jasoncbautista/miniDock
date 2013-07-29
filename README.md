@@ -13,6 +13,7 @@ At a high level the dock looks as follows:
        +--------+ +--------+ +--------+
    ```
 
+
 ### Sample Usage:
 
   ```javascript
@@ -20,7 +21,7 @@ At a high level the dock looks as follows:
     var options = {
       iconURI: "image/path/someImage.png",
       onClickCallback: function(){
-           // This function will be called on click
+           // This function will be called on click.
       }
     };
     miniDockInstance.addIcon(options);
@@ -29,6 +30,10 @@ At a high level the dock looks as follows:
     document.body.appendChild(miniDockElement);
   ```
 
+### Notes
+
+ - It lives at the bottom of the DOM elemnt it is attached to.
+ - It is centered horizontally.
 
 ### Supported Browsers
     * Chrome 28
