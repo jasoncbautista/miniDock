@@ -5,18 +5,6 @@ A Simple Mini Dock
 The goal was to create a very simple dock of icons built using vanilla Javascript
 
 
- * At a high level the dock looks as follows:
-
-+--------+ +--------+ +--------+
-
-|        | |        | |        |
-
-|  icon  | | icon 2 | | icon 3 |
-
-|        | |        | |        |
-
-+--------+ +--------+ +--------+
-
 ### Example:
 
     var miniDockInstance = new NameSpace.MiniDock();
