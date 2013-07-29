@@ -31,7 +31,9 @@ At a high level the dock looks as follows:
 
 
 ### Supported Browsers
-    Chrome
+    * Chrome 28
+    * Firefox 22
+    * Safari 6.02
 
 
 ### Demo
